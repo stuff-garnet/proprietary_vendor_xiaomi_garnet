@@ -1739,6 +1739,7 @@ PRODUCT_PACKAGES += \
     libFileMux_proprietary \
     libHISCppAlgos \
     libMiMotion \
+    libMiVideoFilter \
     libTrueSight \
     libXMFaceFocus \
     lib_bt_aptx \
