@@ -19429,14 +19429,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "init.qcom.early_boot",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/init.qcom.early_boot.sh",
-	filename: "init.qcom.early_boot.sh",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "init.qcom.efs.sync",
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/init.qcom.efs.sync.sh",
