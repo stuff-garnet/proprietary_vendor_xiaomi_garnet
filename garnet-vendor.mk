@@ -2120,7 +2120,6 @@ PRODUCT_PACKAGES += \
     init.mdm \
     init.qcom.class_core \
     init.qcom.coex \
-    init.qcom.early_boot \
     init.qcom.efs.sync \
     init.qcom.post_boot \
     init.qcom.sdio \
