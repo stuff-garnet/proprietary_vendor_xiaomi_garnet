@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.qti.ims.rcsservice.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
-    vendor/xiaomi/garnet/proprietary/system_ext/etc/seccomp_policy/wfdservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice.policy \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_telephony_system_packages_config.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/sysconfig/qti_whitelist_system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist_system_ext.xml \
@@ -1359,6 +1358,7 @@ PRODUCT_PACKAGES += \
     libdisp-aba \
     libdisplayqos \
     libdisplayskuutils \
+    libdlrmsc \
     libdpmqmihal \
     libdpps \
     libdrmfs \
@@ -1767,7 +1767,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.factory@2.5 \
     vendor.qti.data.mwqem@1.0 \
     vendor.qti.data.slm@1.0 \
-    vendor.qti.diaghal@1.0 \
+    vendor.qti.diaghal@1.0_vendor \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.gnss-V3-ndk_platform \
@@ -1810,10 +1810,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.1 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.power.powermodule@1.0 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
+    vendor.qti.hardware.qccsyshal@1.0_vendor \
+    vendor.qti.hardware.qccsyshal@1.1_vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
-    vendor.qti.hardware.qccvndhal@1.0 \
+    vendor.qti.hardware.qccvndhal@1.0_vendor \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
@@ -1859,7 +1859,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.vpp@2.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
@@ -1882,7 +1882,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce@1.1 \
     vendor.qti.ims.rcsuce@1.2 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.memory.pasrmanager@1.0 \
@@ -2200,5 +2200,4 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     xtwifi-inet-agent \
     qccsyshal@1.2-service \
-    wfdservice \
     wfdservice64
