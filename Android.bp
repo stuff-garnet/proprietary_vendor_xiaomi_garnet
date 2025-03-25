@@ -11681,7 +11681,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libqtikeymint.so"],
-			shared_libs: ["android.hardware.security.rkp-V3-ndk", "liblog", "libcrypto", "libhidlbase", "libutils", "libcutils", "libkeymasterdeviceutils", "libbase", "libqcbor", "libkeymaster_messages", "android.hardware.keymaster@4.0", "android.hardware.keymaster@4.1", "android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "libbinder_ndk", "libkeymasterutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.security.rkp-V1-ndk", "liblog", "libcrypto", "libhidlbase", "libutils", "libcutils", "libkeymasterdeviceutils", "libbase", "libqcbor", "libkeymaster_messages", "android.hardware.keymaster@4.0", "android.hardware.keymaster@4.1", "android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "libbinder_ndk", "libkeymasterutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -18896,7 +18896,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti"],
-			shared_libs: ["android.hardware.security.rkp-V3-ndk", "liblog", "libcutils", "libbase", "libutils", "libhardware", "libbinder_ndk", "libhidlbase", "android.hardware.keymaster@4.0", "libqtikeymint", "libcrypto", "android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.security.rkp-V1-ndk", "liblog", "libcutils", "libbase", "libutils", "libhardware", "libbinder_ndk", "libhidlbase", "android.hardware.keymaster@4.0", "libqtikeymint", "libcrypto", "android.hardware.security.keymint-V1-ndk_platform", "android.hardware.security.secureclock-V1-ndk_platform", "android.hardware.security.sharedsecret-V1-ndk_platform", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
