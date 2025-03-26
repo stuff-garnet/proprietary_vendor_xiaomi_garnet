@@ -2000,7 +2000,6 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix_fod.default \
     libgf_hal \
     librfs_warp \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     CACertService \
     CneApp \
     IWlanService \
