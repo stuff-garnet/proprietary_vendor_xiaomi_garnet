@@ -2201,3 +2201,8 @@ PRODUCT_PACKAGES += \
     xtwifi-inet-agent \
     qccsyshal@1.2-service \
     wfdservice64
+
+PRODUCT_PACKAGES += \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
