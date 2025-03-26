@@ -1383,7 +1383,7 @@ PRODUCT_PACKAGES += \
     libgnsspps \
     libgps.utils \
     libgpudataproducer \
-    libgrpc++_unsecure \
+    libgrpc++_unsecure_prebuilt \
     libgsl \
     libhdr10plus \
     libhdr_backlight_adapter \
