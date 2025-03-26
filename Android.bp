@@ -8605,7 +8605,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.primary.parrot",
+    name: "audio.primary.garnet",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -8613,7 +8613,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/audio.primary.parrot.so",
+                "proprietary/vendor/lib64/hw/audio.primary.garnet.so",
             ],
             shared_libs: [
                 "libbase",
@@ -16034,7 +16034,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libexpat",
                 "liblog",
-                "audio.primary.parrot",
+                "audio.primary.garnet",
                 "libc++",
                 "libc",
                 "libm",
