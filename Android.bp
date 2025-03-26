@@ -6821,7 +6821,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcamximageformatutils.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libprocessgroup", "libbinder_ndk", "libdisplayconfig.qti", "vendor.qti.hardware.display.config-V2-ndk_platform", "libz", "libc", "libm", "libdl", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libsync", "android.hardware.graphics.common@1.1", "libhardware", "libhidlbase", "libhidltransport", "libcamera_metadata", "libcamxcommonutils", "libcamxsettingsmanager", "libqti_vndfwk_detect", "libutils", "android.hardware.graphics.allocator@4.0", "android.hardware.graphics.mapper@4.0", "libgralloc.qti", "libgralloctypes", "vendor.qti.hardware.display.allocator@4.0", "vendor.qti.hardware.display.mapper@4.0", "vendor.qti.hardware.display.mapperextensions@1.1", "libcdsprpc", "libprocessgroup", "libbinder_ndk", "libdisplayconfig.qti", "vendor.qti.hardware.display.config-V2-ndk", "libz", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
